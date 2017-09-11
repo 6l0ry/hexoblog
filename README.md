@@ -3,20 +3,20 @@ N00bctf's website source
 Blog engine: Hexo
 Theme: nexT
 
-#Basic Installation
+# Basic Installation
 You need to have your nodejs and npm installed first!!!
 
-##Install hexo-cli
+## Install hexo-cli
 ```
 sudo npm install hexo-cli -g
 ```
 
-##Clone this repo
+## Clone this repo
 ```
 git clone https://github.com/n00bctf/hexoblog.git
 ```
 
-##Install requirements
+## Install requirements
 ```
 cd hexoblog/
 sudo npm install 
@@ -35,14 +35,14 @@ hexo n $post_name
 
 <br>
 # How to publish
-##Fork this repo
-##clone your repo and create a new post
-##after creating your post, use the following command(`$username` is your github username)
+## Fork this repo
+## clone your repo and create a new post
+## after creating your post, use the following command(`$username` is your github username)
 ```
 git remote add forked https://github.com/$username/hexoblog.git
 git push forked master
 ```
-##send your PR to this repo
-##DONE !!
+## send your PR to this repo
+## DONE !!
 
 
