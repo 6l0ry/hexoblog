@@ -342,7 +342,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zMDgxNC83MzY2
 
 # Baidu Share
 # Available value:
@@ -563,7 +563,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
@@ -605,7 +605,7 @@ vendors:
   lazyload:
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
+  # See: http://Veloc/ityJS.org
   velocity:
 
   # Internal version: 1.2.1
