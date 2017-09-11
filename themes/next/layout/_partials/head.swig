@@ -15,6 +15,16 @@
     {% endif %}
   <script src="{{ pace_js_uri }}"></script>
   <link href="{{ pace_css_uri }}" rel="stylesheet">
+<script>
+    (function(){
+        if('{{ page.password }}'){
+            if (prompt('請輸入文章密碼') !== '{{ page.password }}'){
+                alert('密碼錯誤! ');
+                history.back();
+            }
+        }
+    })();
+</script>
 {% endif %}
 
 
