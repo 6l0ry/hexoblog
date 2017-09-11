@@ -23,7 +23,7 @@ sudo npm install
 ```
 
 <br>
-#Usage
+# Usage
 
 ## create a new post
 ```
@@ -35,14 +35,19 @@ hexo n $post_name
 
 <br>
 # How to publish
+
 ## Fork this repo
+
 ## clone your repo and create a new post
+
 ## after creating your post, use the following command(`$username` is your github username)
 ```
 git remote add forked https://github.com/$username/hexoblog.git
 git push forked master
 ```
+
 ## send your PR to this repo
+
 ## DONE !!
 
 
