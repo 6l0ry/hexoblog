@@ -48,10 +48,10 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/
-  about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  about: /about/
+  #sitemap: /sitemap.xml
   #commonweal: /404/
 
 # Enable/Disable menu icons.
@@ -104,7 +104,7 @@ social_icons:
   transition: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/racterub
+  GitHub: github
   E-Mail: envelope
   Google: google
   Twitter: twitter
@@ -249,7 +249,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -305,7 +305,7 @@ font:
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -668,3 +668,5 @@ images: images
 
 # Theme version
 version: 5.1.2
+
+since: 2017

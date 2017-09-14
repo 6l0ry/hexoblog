@@ -79,3 +79,9 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/n00bctf/n00bctf.github.io.git
+
+search:
+  path: search.xml
+  field: post
+
+google_site_verification: x3Fw98Mf7Jskom7PBZgsUGo705ON3S1D0_Fb_XevNJw
