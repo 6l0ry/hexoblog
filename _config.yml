@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: n00bctf
+title: 6l0ry | CTF team
 subtitle: CTF-writeup & more
 description: 
-author: Team.n00bctf
+author: 6l0ry
 language: zh-tw
 timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://n00bctf.github.io
+url: http://6l0ry.github.io
 root: /
-permalink: :type/:title/
+permalink: :lang/:title/
 permalink_defaults:
 
 # Directory
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :type/:title.md # File name of new posts
+new_post_name: :lang/:title.md # File name of new posts
 default_layout: post
 titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -78,7 +78,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/n00bctf/n00bctf.github.io.git
+  repo: https://github.com/6l0ry/6l0ry.github.io
 
 search:
   path: search.xml
