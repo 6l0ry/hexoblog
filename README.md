@@ -17,10 +17,10 @@ How to contribute
 
 
 ## Hexo 基本指令
-`hexo n (hexo new)` 新增文章
-`hexo g (hexo generate)` 渲染, 產出網站
-`hexo d (hexo deploy)` 發布網站 (github by default)
-`hexo s [--debug] (hexo server [--debug])` 布置內網網站(--debug 會顯示http status)
+- `hexo n (hexo new)` 新增文章
+- `hexo g (hexo generate)` 渲染, 產出網站
+- `hexo d (hexo deploy)` 發布網站 (github by default)
+- `hexo s [--debug] (hexo server [--debug])` 布置內網網站(--debug 會顯示http status)
 
 ## 製作文章
 網站會依照語言做分賴
