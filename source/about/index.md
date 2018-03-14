@@ -2,7 +2,6 @@
 title: about
 date: 2017-09-11 16:26:52
 ---
-## 
 # <center>- Ghost in the Shell -</center>
 
 ### <center>// We are a learning-oriented team that is open to everyone. // </center>
@@ -25,6 +24,7 @@ date: 2017-09-11 16:26:52
 
 <center>CTFtime: [https://ctftime.org/team/1429](https://ctftime.org/team/1429)</center>
 
+<hr>
 # <center>- Members -</center>
 
 ### <center>Racterub(leader)</center>

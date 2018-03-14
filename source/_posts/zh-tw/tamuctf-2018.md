@@ -1,14 +1,13 @@
 ---
 title: TAMUCTF-2018
 tags:
-  - Write-up
-  - tamuctf
+    - Write-up
+    - tamuctf
 lang: zh-tw
 cotegories:
-  - Write-up
-  - tamuctf
-  - 2018
-date: 2018-02-27 12:18:25
+    - Write-up
+    - tamuctf
+    - 2018
 ---
 
 太多情境題了
