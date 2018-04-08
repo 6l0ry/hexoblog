@@ -7,7 +7,8 @@ categories:
     - 2017
 tags:
     - Write-up
-    - Bamboofox
+    - bamboofox
+author: racterub
 ---
 
 

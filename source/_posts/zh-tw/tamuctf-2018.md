@@ -8,6 +8,7 @@ cotegories:
     - Write-up
     - tamuctf
     - 2018
+author: racterub
 ---
 
 太多情境題了
